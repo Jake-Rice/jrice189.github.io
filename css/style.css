@@ -115,3 +115,11 @@ i{
   font-family: "Lucida Console", "Georgia", Serif;
   color: #e6eef8;
 }
+.link, .link:link, .link:visited {
+  color: #e6eef8;
+  text-decoration: underline;
+}
+.link:hover, .link:active {
+  color: #ff7422;
+  text-decoration: underline;
+}
