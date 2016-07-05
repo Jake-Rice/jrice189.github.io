@@ -34,6 +34,11 @@ body {
   width: 100%;
   min-width: 350px;
 }
+
+.navbar {
+  background-color: #e6eef8;
+}
+
 .home-container {
   background-color:transparent;
 }
@@ -50,6 +55,14 @@ body {
 .right-header {
   float: right;
 }
+
+.icon-header {
+  margin-top: 2px;
+  margin-right: 2px;
+  height: 45px;
+  width: auto;
+}
+
 .logo {
   text-align:left;
 }
