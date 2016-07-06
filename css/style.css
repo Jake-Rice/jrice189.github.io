@@ -1,7 +1,9 @@
 body {
   color: #e6eef8;
-  background-image: url('../background.png'); 
-  background-attachment: fixed;
+  background: url(../background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 .content-container {
