@@ -1,6 +1,6 @@
 body {
   color: #e6eef8;
-  background: url(../background.png) no-repeat center center fixed; 
+  background: url(../img/background.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8,11 +8,11 @@ body {
 }
 .content-container {
   min-height: 100vh;
-  margin-top:55px;
+  margin-top:45px;
 }
 .main-title {
   color: #e6eef8;
-  margin-bottom: 20px;
+  margin-bottom:0px;
   padding-top:25vh;
   margin-top:-45px;
 }
@@ -20,7 +20,7 @@ body {
   width: 100%
 }
 
-.caption {
+.caption, .caption:focus, .caption:hover, .caption:active, .caption:visited {
   padding-bottom: 10px;
   text-decoration: none;
 }
@@ -29,8 +29,8 @@ body {
   
 }
 
-.project-tile {
-  
+.project-tile, .project-tile:focus, .project-tile:hover, .project-tile:active, .project-tile:visited{
+  text-decoration: none;
 }
 
 .header {
