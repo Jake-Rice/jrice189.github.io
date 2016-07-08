@@ -13,17 +13,24 @@ body {
 .main-title {
   color: #e6eef8;
   margin-bottom: 20px;
-  padding-top:30vh;
+  padding-top:25vh;
   margin-top:-45px;
 }
-.thumb-container {
-  margin: 10px 5% 0px 5%;
-  width: 90%
+.thumb {
+  width: 100%
 }
 
-.caption-container {
-  margin: 0px 5% 10px 5%;
-  width: 90%
+.caption {
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.gallery {
+  
+}
+
+.project-tile {
+  
 }
 
 .header {
@@ -69,24 +76,26 @@ body {
   text-align:left;
 }
 .body-container {
-  background-color: transparent;
-  max-width:900px;
-  min-width:350px;
+  max-width: 1200px;
   margin: auto;
+  padding-top: -20px;
 }
 img {
   border-radius: 7px;
   border: 1px #3e4a56 solid;
 }
 .img-thumb {  
-  padding: 0px;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
 }
 
 h1{
   font-family: "Lucida Console", "Georgia", Serif;  
 }
 h2 {
-  font-family: Script; 
+  font-family: Script;
+  padding-bottom: 20px;
 }
 h3 {
   font-family: "Lucida Console", "Georgia", Serif;
@@ -96,6 +105,7 @@ h3 {
 
 p {
   font-family: "Verdana", Sans-Serif;
+  padding-bottom: 20px;
 }
 .text-container {
   margin: 10px;
@@ -127,6 +137,7 @@ i{
   text-align: center;
   font-family: "Lucida Console", "Georgia", Serif;
   color: #e6eef8;
+  margin-top: 10px;
 }
 .link, .link:link, .link:visited {
   color: #e6eef8;
@@ -135,4 +146,16 @@ i{
 .link:hover, .link:active {
   color: #ff7422;
   text-decoration: underline;
+}
+
+.row {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.anchor0{
+  display: block;
+  height: 55px; /*same height as header*/
+  margin-top: -55px; /*same height as header*/
+  visibility: hidden;
 }

@@ -8,10 +8,10 @@ $(".project7").hover(function(){on(7)}, function(){off(7)});
 $(".project8").hover(function(){on(8)}, function(){off(8)});
 
 function on(a) {
-  $(".project"+a).css("color","#ff7422");
-  $(".project"+a).css("border-color","#ff7422");
+  $(".ele"+a).css("color","#ff7422");
+  $(".ele"+a).css("border-color","#ff7422");
 }
 function off(a) {
-  $(".project"+a).css("color","");
-  $(".project"+a).css("border-color","");
+  $(".ele"+a).css("color","");
+  $(".ele"+a).css("border-color","");
 }
