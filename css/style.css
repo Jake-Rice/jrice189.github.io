@@ -25,15 +25,11 @@ body {
   text-decoration: none;
 }
 
-.gallery {
-  
-}
-
 .project-tile, .project-tile:focus, .project-tile:hover, .project-tile:active, .project-tile:visited{
   text-decoration: none;
 }
 
-.header {
+/*.header {
   position: fixed;
   z-index: 99;
   top:0px;
@@ -42,7 +38,7 @@ body {
   padding: 5px;
   width: 100%;
   min-width: 350px;
-}
+}*/
 
 .navbar {
   background-color: #e6eef8;
